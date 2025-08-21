@@ -1,0 +1,92 @@
+.container{
+  display: flex;                 
+  align-items: flex-start;       
+  gap: 40px;                     
+  max-width: 1000px;             
+  margin: 50px auto;         
+  padding: 20px;
+}
+.child-1 img{
+    width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    margin-left:0px;
+}
+.child-2{
+    flex:1;
+    padding: 12px 24px 12px 24px;
+}
+.child-2 h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.child-2 h4{
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.child-2 p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+img{
+    margin-left:300px;
+}
+.menu{
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 40px;
+}
+.content{
+    padding:12px 24px 12px 24px;
+    flex: 1;
+}
+.content h2{
+    text-align:center;
+}
+.image img{
+     width: 400px; 
+     height: auto;
+     border-radius: 8px;
+     margin-left:0px; 
+     padding:12px 24px 12px 24px;
+}
+.contact{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align:start;
+}
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.contact-form textarea {
+  min-height: 100px;
+}
+.contact-form button {
+  background: #eee;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 150px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f2f2f2;
+  margin-top: 40px;
+}
+
